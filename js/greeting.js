@@ -1,10 +1,9 @@
 const loginForm = document.querySelector("#login-form");
 const loginInput = document.querySelector("#login-form input");
-const gretting = document.querySelector("#greeing")
+const greeting = document.querySelector("#greeting");
 
 const HIDDEN_CLASSNAME = "hidden";
 const USERNAME_KEY = "username"
-const savedUsername = localStorage.getItem(USERNAME_KEY);
 
 function painGreeitngs(username){
   greeting.innerText = `Hello ${username}`;
@@ -19,6 +18,7 @@ function onLoginSubmit(event){
   painGreeitngs(username)
 }
 
+const savedUsername = localStorage.getItem(USERNAME_KEY);
 
 if(savedUsername === null){
   loginForm.classList.remove(HIDDEN_CLASSNAME);
