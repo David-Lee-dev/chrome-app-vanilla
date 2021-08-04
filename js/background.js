@@ -12,9 +12,15 @@ const images =[
 ]
 
 const chsoenImage = images[Math.floor(Math.random() * images.length)];
-const bgImage = document.createElement("img");
+// const bgImage = document.createElement("img");
 
-bgImage.src = `img/${chsoenImage}`;
-document.body.appendChild(bgImage);
+// bgImage.src = `img/${chsoenImage}`;
+// document.body.appendChild(bgImage);
 
-console.log(bgImage);
+const src = `url("img/${chsoenImage}")`;
+
+console.log(src);
+const bgImage = document.getElementById("background");
+bgImage.style.backgroundImage = src;
+bgImage.style.backgroundRepeat = "no-repeat";
+bgImage.style.backgroundSize = "100%";
