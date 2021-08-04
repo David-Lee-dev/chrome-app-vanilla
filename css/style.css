@@ -1,3 +1,50 @@
 .hidden {
   display: none;
 }
+
+#container {
+  margin-top: 80px;
+}
+
+#login-form {
+  text-align: center;
+}
+
+#login-form input {
+  height: 30px;
+  font-size: 20px;
+}
+
+#login-form button {
+  height: 30px;
+}
+
+#greeting {
+  margin: 100px;
+  color: white;
+  text-align: center;
+}
+
+#clock {
+  margin: 0;
+  color: white;
+  font-size: 85px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+
+}
+
+#quote {
+  margin-top: 300px;
+  color: white;
+}
+
+#quote>span {
+  display: block;
+  text-align: center;
+}
+
+#todo-list {
+  color: white;
+}
