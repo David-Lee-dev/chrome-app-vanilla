@@ -1,50 +1,55 @@
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
 .hidden {
   display: none;
 }
 
-#container {
-  margin-top: 80px;
+#weather {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 5%;
 }
 
-#login-form {
-  text-align: center;
+#weather li {
+  margin: 0 10px;
+  color: white;
 }
 
-#login-form input {
-  height: 30px;
-  font-size: 20px;
+#clock-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
 }
 
-#login-form button {
-  height: 30px;
+#clock-login #clock {
+  font-size: 100px;
+  font-weight: bold;
+  color: white;
+}
+
+#clock-login #log-in {
+  margin-top: 20px;
 }
 
 #greeting {
-  margin: 100px;
   color: white;
-  text-align: center;
-}
-
-#clock {
-  margin: 0;
-  color: white;
-  font-size: 85px;
-  font-weight: 400;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-
+  font-size: 50px;
+  margin-top: 20px;
 }
 
 #quote {
-  margin-top: 300px;
+  display: flex;
+  flex-direction: column;
+  width: inherit;
+  align-items: center;
+  position: fixed;
+  bottom: 20px;
   color: white;
-}
-
-#quote>span {
-  display: block;
-  text-align: center;
-}
-
-#todo-list {
-  color: white;
+  font-size: large;
 }
