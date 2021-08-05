@@ -1,8 +1,14 @@
 # Chrome App clone coding
 
-> This document is note about what I got to know while clone coding.
+> [KR]
 >
-> So, there wasn't everything regarding ``HTML`` or ``CSS``
+> 클론 코딩을 진행하면서 알게 된 것을 적어 놓은 문서입니다.
+>
+> 항목은 강의 섹션에 따라서 나뉘어 있습니다.
+>
+> [EN]
+>
+> This document is note about what I got to know while clone coding.
 >
 > Each provision is separated follow section of lecture
 >
@@ -43,9 +49,16 @@
 
 ---
 
-[2021.08.01] 
+[2021.08.01.] 
 
 - chrome app clone coding 끝.
 - 간단한 기능 구현 완료.
 - 날씨 정보 api key 발급해야됨.
 - CSS 이용해서 레이아웃 가다듬을 필요가 있음
+
+[2021.08.04.]
+
+- 배경화면, 최대 화면일 때 레이아웃 추가
+- 반응형으로 만들어서 창의 크 기에 따라 유동적인 레이아웃을 만들어야 함.
+- To do list 위치 변경 필요
+
