@@ -1,6 +1,8 @@
-# 1Chrome-app
+# Chrome-app
 
 ---
+
+<img src="README.assets/image-20210807114740826.png" alt="image-20210807114740826" style="zoom:50%;" />
 
 ## 1. 개요
 
@@ -26,4 +28,4 @@
 
 > - 시간 및 날씨 표시
 > - 로그인 및 로그인 기록 저장
-> - To do list
+> - 화면 하단 명언
