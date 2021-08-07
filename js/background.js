@@ -17,4 +17,5 @@ const src = `url("img/${chsoenImage}")`;
 const bgImage = document.getElementById("background");
 bgImage.style.backgroundImage = src;
 bgImage.style.backgroundRepeat = "no-repeat";
-bgImage.style.backgroundSize = "100%";
+bgImage.style.backgroundSize = "cover";
+bgImage.style.overflow= "hidden";
