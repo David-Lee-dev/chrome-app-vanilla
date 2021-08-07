@@ -29,3 +29,18 @@
 > - 시간 및 날씨 표시
 > - 로그인 및 로그인 기록 저장
 > - 화면 하단 명언
+
+
+
+## 4. 주의 사항
+
+> 코드에 있는  API key는 삭제되어 있습니다.
+>
+> [OpenWeather](https://openweathermap.org/api) 에 가입한 뒤 API key를 발급 받아야 합니다.
+
+<img src="README.assets/image-20210807115403083.png" alt="image-20210807115403083" style="zoom:50%;" />
+
+<img src="README.assets/image-20210807115447276.png" alt="image-20210807115447276" style="zoom:50%;" />
+
+<img src="README.assets/image-20210807115526925.png" alt="image-20210807115526925" style="zoom:50%;" />
+
