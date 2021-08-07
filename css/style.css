@@ -44,12 +44,10 @@ body {
 }
 
 #quote {
-  display: flex;
-  flex-direction: column;
-  width: inherit;
-  align-items: center;
   position: fixed;
-  bottom: 20px;
+  bottom: 5%;
   color: white;
   font-size: large;
+  text-align: center;
+  width: 100%;
 }
